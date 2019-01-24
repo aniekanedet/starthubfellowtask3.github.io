@@ -30,7 +30,17 @@ html, body{
   .playbtn{
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 15px;
+  }
+  .playicon{
+    font-size: 20px;
+    top: -15px;
+    position: relative;
+  }
+  .play-text{
+    color: #F3B007;
+    padding-right: 40px;
+
   }
   .Flex-stuff{
     display: flex;
@@ -74,3 +84,13 @@ html, body{
     padding-left: 7 0px;
 
   }
+  
+  .list ul {
+    list-style: none;
+}
+
+.list  li:before {
+    content: "+";
+    margin-right: 4px;
+    color: #F3B007;
+}
