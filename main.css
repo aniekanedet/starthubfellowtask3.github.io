@@ -102,6 +102,21 @@ html, body{
     margin-right: 4px;
     color: #F3B007;
 }
+.user{
+  /* background-color: rgb(207, 154, 19);
+  padding: 10px; */
+
+}
+.btn-join{
+  justify-content: center;
+    padding-top: 100px;
+    padding-left: 150px;
+}
+.btn-join2{
+  justify-content: center;
+  adding-top: 100px;
+  padding-right: 150px;
+}
 .fixed-background{
   background: url(Assest/hd-5.jpg) no-repeat;
   background-attachment: fixed;
@@ -125,7 +140,7 @@ html, body{
 
 }
 .fixed-div{
-  padding: 20px;
+  padding: 70px;
   color: white;
   
 }
