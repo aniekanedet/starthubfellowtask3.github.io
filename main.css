@@ -16,7 +16,14 @@ html, body{
     height: 100vh;
   }
   
+h1,h2,h3,h4,h5{
 
+font-style:normal;
+font-family: Rajdhani, sans-serif;
+font-weight: 900;
+font-size: 45px;
+line-height: 50px;
+}
   .navbar {
       padding: .8rem;
   }
@@ -67,16 +74,31 @@ html, body{
   }
 
   .colum_border{
-    border-left: 1px solid gray;
+    border-left: 1px solid #B7B7B7;
+    height: 65px;
   }
   .colum_border1{
-    border-left: 1px solid gray;
+    border-left: 1px solid #B7B7B7;
+    height: 65px;
+
   }
   .colum_border2{
-    border-left: 1px solid gray;
+    border-left: 1px solid #B7B7B7;
+    height: 65px;
+
   }
   .colum_border3{
-    border-left: 1px solid gray;
+    border-left: 1px solid #B7B7B7;
+    height: 65px;
+
+  }
+  .img-height img{
+    height: 380px;
+    width: 2000%;
+    border-radius: 2px;
+  }
+  .img-height1{
+    border-radius: 2px;
   }
   .top-quality{
     background-color: white;
