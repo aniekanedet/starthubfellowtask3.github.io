@@ -178,9 +178,15 @@ footer .logo{
   margin-top:30px;
   width: 200px;
   margin-right: 20px;
- 
 }
 
+.footer-links{
+  list-style-type:none;
+  line-height: 30px;
+}
+ footer a:hover{
+  text-decoration: none;
+}
 /* media querries */
 @media only screen and (max-width: 425px){
   .top-quality{
