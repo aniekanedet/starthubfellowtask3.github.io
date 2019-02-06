@@ -24,12 +24,11 @@ font-weight: 900;
 font-size: 45px;
 line-height: 50px;
 }
-  .navbar {
-      padding: .8rem;
-  }
-  .navbar-nav{
-    padding-right: 20px;
-  }
+ .logo{
+  margin-top:10px;
+  width: 200px;
+  margin-right: 20px;
+ }
 
   .head-content{
     margin-top: 155px;
@@ -169,4 +168,22 @@ line-height: 50px;
 .second-card{
   /* padding: 10px; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer{
+  background-color:#F5F5F5;
+  margin-top:20px;
+}
+footer .logo{
+  margin-top:30px;
+  width: 200px;
+  margin-right: 20px;
+ 
+}
+
+/* media querries */
+@media only screen and (max-width: 425px){
+  .top-quality{
+    display: none;
+  }
 }
