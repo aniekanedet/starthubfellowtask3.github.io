@@ -179,13 +179,55 @@ footer .logo{
   width: 200px;
   margin-right: 20px;
 }
-
-.footer-links{
+footer h4 {
+  font-weight: 900;
+  color: #2d2d2d;
+  font-size: 13px;
+}
+.footer-links {
   list-style-type:none;
   line-height: 30px;
+  font-size: 13px;
+}
+.footer-links2{
+  list-style-type:none;
+  font-size: 13px;
+  white-space: nowrap;
+  font-weight: 500;
+  line-height: 32px;
+}
+.footer-links2 a{
+  color: rgb(73, 73, 73);
+}
+.footer-links a{
+  color: rgb(116, 115, 115);
+
 }
  footer a:hover{
   text-decoration: none;
+} 
+.footer-payment-image{
+  margin-top: 70px;
+}
+ .copy-p{
+  font-size: 12px;
+  line-height: 20px;
+  color:grey;
+  font-weight: bold;
+ }
+footer .copy-menu{
+  padding-left: 200px;
+}
+footer .copy-menu a{
+  padding:10px;
+  font-size: 12px;
+  line-height: 20px;
+  color:grey;
+  font-weight: bold;
+}
+.link-bd{
+  height: 0px;
+  /* border-right: 1px solid grey; */
 }
 /* media querries */
 @media only screen and (max-width: 425px){
