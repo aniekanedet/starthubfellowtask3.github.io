@@ -146,6 +146,9 @@ line-height: 50px;
   background-size: cover;
   width: 100%;
   height: 70vh;
+  overflow: hidden;
+  /* position: absolute;
+  z-index: -1; */
 
 
 }
@@ -157,6 +160,8 @@ line-height: 50px;
   background-size: cover;
   width: 100%;
   height: 70vh;
+  /* position: absolute;
+  z-index: -1; */
 
 
 }
@@ -169,20 +174,38 @@ line-height: 50px;
   /* padding: 10px; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+/*  */
+.tab{
+  /* border-color: #dee2e6 #dee2e6 #fff */
+  border-radius: 2px 0 0 2px  !important;
+}
 
 footer{
   background-color:#F5F5F5;
   margin-top:20px;
+}
+footer .footer-content{
+  padding-top: 25px;
 }
 footer .logo{
   margin-top:30px;
   width: 200px;
   margin-right: 20px;
 }
+.footer-img{
+  box-shadow: 0px 0 2px 0 rgba(0,0,0,0.1), 0 0 0px 0 rgba(0,0,0,0.1), 0 2px 2px 0 rgba(0,0,0,0.18);
+  background: #FFF;
+  border-radius: 3px;
+  overflow: hidden;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 90%; 
+
+}
 footer h4 {
   font-weight: 900;
   color: #2d2d2d;
-  font-size: 13px;
+  font-size: 20px;
 }
 .footer-links {
   list-style-type:none;
@@ -206,8 +229,15 @@ footer h4 {
  footer a:hover{
   text-decoration: none;
 } 
+.fa-info-circle{
+  color: #F3B007;
+  padding: 10px;
+}
+.fa-social{
+  margin-top: 10px;
+}
 .footer-payment-image{
-  margin-top: 70px;
+  margin-top: 20px;
 }
  .copy-p{
   font-size: 12px;
@@ -215,15 +245,46 @@ footer h4 {
   color:grey;
   font-weight: bold;
  }
-footer .copy-menu{
-  padding-left: 200px;
-}
+/*  */
 footer .copy-menu a{
   padding:10px;
   font-size: 12px;
   line-height: 20px;
   color:grey;
   font-weight: bold;
+}
+footer .logo-text{
+  font-size: 14px !important;
+  line-height: 24px;
+  margin-top: 60px;
+}
+.footer-social{
+    color:rgb(253, 253, 253);
+    font-size: 32px;
+    margin-top: 50px;
+}
+.button1{
+background-color: rgb(0, 71, 224);
+padding: 5px 15px !important;
+color: #FFF;
+}
+.button2{
+  background-color: rgb(8, 135, 246);
+padding: 5px 15px !important;
+color: #FFF;
+
+}
+.button3{
+  background-color: rgb(172, 4, 10);
+padding: 5px 15px !important;
+color: #FFF;
+
+}
+.button4{
+  background-color: #3090C1;
+padding: 5px 15px !important;
+color: #FFF;
+
 }
 .link-bd{
   height: 0px;
@@ -234,4 +295,24 @@ footer .copy-menu a{
   .top-quality{
     display: none;
   }
+  footer .copy-menu{
+    margin-botttom:15px;
+  }
+  footer .copy-menu a{
+    padding:2px;
+    font-size: 12px;
+    line-height: 20px;
+    color:rgb(128, 128, 128);
+    font-weight: bold;
+  }
+  .footer-img{
+    box-shadow: 0px 0 2px 0 rgba(0,0,0,0.1), 0 0 0px 0 rgba(0,0,0,0.1), 0 2px 2px 0 rgba(0,0,0,0.18);
+    background: #FFF;
+    border-radius: 3px;
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%; 
+  
+  } 
 }
