@@ -3,26 +3,43 @@
 @import url('https://fonts.googleapis.com/css?family=Coda');
 
 html, body{
- 
+  padding: 0;
+  margin: 0;
+  background: rgb(241, 241, 241) !important;
 }
+h1,h2,h3,h4,h5{
+
+  font-style:normal;
+  font-family: Rajdhani, sans-serif;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 50px;
+  }
+  .flex-stuff{
+    display: flex;
+    /* padding: 5px; */
+  }
 /*----------------------------------
   Hero Image
 ------------------------------------*/
-.u-hero-img {
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+header {
+    background: linear-gradient(rgba(94, 92, 93, 0.23), rgba(94, 94, 94, 0.23)), url(Assest/header-image.jpg) no-repeat;
+    height: 750px;
     background-size: cover;
-    width: 100%;
-    height: 100vh;
-  }
-  
-h1,h2,h3,h4,h5{
 
-font-style:normal;
-font-family: Rajdhani, sans-serif;
-font-weight: 900;
-font-size: 45px;
-line-height: 50px;
+  }
+  /* --------- */
+/* Nav links */
+.nav-link{
+  text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #2d2d2d;
+}
+.btnwarn{
+  text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
 }
  .logo{
   margin-top:10px;
@@ -36,6 +53,14 @@ line-height: 50px;
     z-index: 1;
     color: white;
   }
+  .head-content p{
+    font-size: 15px;
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+
+
+
+  }
   .playbtn{
     display: flex;
     justify-content: center;
@@ -48,29 +73,35 @@ line-height: 50px;
   }
   .play-text{
     color: #F3B007;
+    text-transform: uppercase;
+    font-size: 13px;
     padding-right: 40px;
+    font-weight: 700;
 
   }
-  .flex-stuff{
-    display: flex;
-    /* padding: 5px; */
+  .cardUp{
+    margin-top: -120px;
   }
-  .cards{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    top: -120px;
-    position: relative;
+  .cardUp h3{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
+    line-height: 1.42857143;
+    color: #4C4C4C;
+    font-weight: 600;
   }
-  .teamcards{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 80%;
-  }
-  .card-text{
-   padding: 10px;
-  }
+  .cardUp p{
+    text-align: center;
+    margin-top: 3px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    
+}
   
-  .cardtext{
-    background-color: white;
-  }
+  
+  
 
   .colum_border{
     border-left: 1px solid #B7B7B7;
@@ -91,6 +122,73 @@ line-height: 50px;
     height: 65px;
 
   }
+  .thirdsection h5{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 25px;
+    line-height: 28px;
+  }
+  .thirdsection p{
+    font-size: 13px !important;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .forthsection{
+    background-color: #fff;
+    margin-top: 15px;
+    padding-top:15px;
+    padding-bottom:15px;
+  }
+  .forthsection h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    position: relative;
+    /* margin-bottom: 32px; */
+    color: #2d2d2d;
+  }
+  .forthsection p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    color: #4C4C4C;
+  }
+  .forthsection ul{
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    line-height: 2;
+    color: #4C4C4C;
+  }
+  .fifthsection{
+    padding-top:50px;
+    padding-bottom:80px;
+  }
+  .fifthcol-6{
+    background: url(Assest/image-5.jpg) no-repeat;
+    background-size: cover;
+
+  }
+  .fifth2col-6{
+    margin-left: 90px;
+  }
+  .fifth2col-6 h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    position: relative;
+    margin-bottom: 32px;
+    color: #2d2d2d;
+  }
+
+  .fifth2col-6 p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+  }
+  .fifth2col-6 ul{
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    line-height: 2;
+    color: #4C4C4C;
+  }
   .img-height img{
     height: 380px;
     width: 2000%;
@@ -104,71 +202,73 @@ line-height: 50px;
     padding: 25px;
     width: 400px;
     position: relative;
-    top: -250px;
-    margin-left: 200px;
-    /* float: right; */
+    margin-left: 220px;
+    bottom: -150px;
   }
   .guaranteed{
     position: absolute;
     padding-left: 7 0px;
 
   }
-  
+  .navList{
+    padding-left: 15px !important;
+  }
+  .navList li{
+    padding-left: 40px;
+  }
   .list ul {
     list-style: none;
 }
 
 .list  li:before {
     content: "+";
-    margin-right: 4px;
+    margin-right: 10px;
+    margin-left: 10px;
     color: #F3B007;
+    font-weight: 900;
+    font-size: 18px;
 }
 .user{
   /* background-color: rgb(207, 154, 19);
   padding: 10px; */
 
 }
-.btn-join{
-  justify-content: center;
-    padding-top: 100px;
-    padding-left: 150px;
+.btn-join {
+  text-align: center;
+  padding-top:200px;
 }
+.btn-join button{
+padding: 20px;
+}
+
+
 .btn-join2{
   justify-content: center;
   adding-top: 100px;
   padding-right: 150px;
 }
-.fixed-background{
-  background: url(Assest/hd-5.jpg) no-repeat;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: 50% 0%;
+.sixthsection{
+  background: linear-gradient(rgba(94, 92, 93, 0.23), rgba(94, 94, 94, 0.23)), url(Assest/hd-5.jpg) no-repeat;
+  height: 450px;
   background-size: cover;
-  width: 100%;
-  height: 70vh;
-  overflow: hidden;
-  /* position: absolute;
-  z-index: -1; */
-
+}
+.sixthsection1{
+margin-top: 50px;
+font-family: 'Rubik', sans-serif;
+color:#fff;
+}
+.sixthsection1 h3{
+  text-transform: uppercase;
+  font-weight: 900;
+  position: relative;
+}
+.sixthsection1 p{
+  font-size:15px;
+  font-family: 'Rubik', sans-serif;
 
 }
-.fixed-background2{
-  background: url(Assest/hd-13.jpg) no-repeat;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: 50% 0%;
-  background-size: cover;
-  width: 100%;
-  height: 70vh;
-  /* position: absolute;
-  z-index: -1; */
-
-
-}
-.fixed-div{
-  padding: 70px;
-  color: white;
-  
+.sixthsection2div {
+  display: flex;
 }
 .second-card{
   /* padding: 10px; */
@@ -315,4 +415,127 @@ color: #FFF;
     width: 100%; 
   
   } 
+  .sixthsection{
+    background: linear-gradient(rgba(94, 92, 93, 0.23), rgba(94, 94, 94, 0.23)), url(Assest/hd-5.jpg) no-repeat;
+    height: 600px;
+    background-size: cover;
+  }
+  .btn-join {
+    text-align: center;
+    padding-top:20px;
+  }
+  .top-quality{
+    display: none;
+  }
+  .fifth2col-6{
+    margin-left: 10px;
+  }
+  .fifthcol-6{
+    display: none;
+
+  }
+  .fifth2col-6 h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    position: relative;
+    margin-bottom: 20px;
+    color: #2d2d2d;
+  }
+
+  .fifth2col-6 p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+  }
+  .fifth2col-6 ul{
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    color: #4C4C4C;
+  }
+  .img-height img {
+    height: 380px;
+    width: 2000%;
+    border-radius: 2px;
+    margin-top: 20px;
+    padding-top: 10px;
 }
+colum_border{
+  display: none;
+}
+.thirdsection img{
+  width: 15%;
+}
+}
+Support
+CSS
+
+Grace Faires
+Posted on Apr 23, 2014 by Grace Faires
+How to create a responsive div with a background image?
+Hey,
+
+I've been struggling with this issue for a while, and just wondered if anyone has any advice! Basically I want to place 3 images in a row, that will resize with the browser window. I also want these images to link to another part of the site, and have hover states applied to them, so I can't use img tags.
+
+If I specify height and width in percentages then the image doesn't display because the div collapses... So how else can I make it responsive?
+
+Thank you in advance!
+
+3 Answers
+Ryno BothaPRO
+Ryno Botha 
+on Apr 23, 2014
+Should work:
+
+background-size: cover;
+
+Cover will make the image as small as it can be, whilst still covering the entirety of its parent, and maintaining its aspect ratio. You may also want to try contain, which makes the image as big as it can be whilst still fitting inside the parent.
+
+Check: https://developer.mozilla.org/en-US/docs/Web/CSS/background-size
+
+To work with Different screen Sizes:
+
+<img src="img.png" class="responsive-image">
+
+In the CSS, we set background-size to fit the and we choose the width of our image.
+
+.responsive-image{
+    width: 100%;
+    background-size: 100% 100%;
+} 
+
+and finally, we serve for every view-port the right image:
+
+/* Retina display */
+@media screen and (min-width: 1024px){
+    image{
+  
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 980px) and (max-width: 1024px){
+    .rage{
+    
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 760px) and (max-width: 980px){
+    image{
+  
+    }
+}
+
+/* Mobile HD */
+@media screen and (min-width: 350px) and (max-width: 760px){
+    .respo
+        
+    }
+}
+
+/* Mobile LD */
+@media screen and (max-width: 350px){
+    .respo
+        
+    }
+} 
