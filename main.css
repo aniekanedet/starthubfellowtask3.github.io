@@ -228,11 +228,7 @@ header {
     font-weight: 900;
     font-size: 18px;
 }
-.user{
-  /* background-color: rgb(207, 154, 19);
-  padding: 10px; */
 
-}
 .btn-join {
   text-align: center;
   padding-top:200px;
@@ -244,7 +240,7 @@ padding: 20px;
 
 .btn-join2{
   justify-content: center;
-  adding-top: 100px;
+  padding-top: 100px;
   padding-right: 150px;
 }
 .sixthsection{
@@ -421,7 +417,7 @@ color: #FFF;
     display: none;
   }
   footer .copy-menu{
-    margin-botttom:15px;
+    margin-bottom:15px;
   }
   footer .copy-menu a{
     padding:2px;
@@ -445,6 +441,13 @@ color: #FFF;
     height: 600px;
     background-size: cover;
   }
+
+  .tenthsection{
+    background: linear-gradient(rgba(94, 92, 93, 0.23), rgba(94, 94, 94, 0.23)), url(Assest/hd-13.jpg) no-repeat;
+    height: 600px;
+    background-size: cover;
+  }
+  
   .btn-join {
     text-align: center;
     padding-top:20px;
@@ -491,36 +494,36 @@ colum_border{
 
 
 /* Retina display */
-@media screen and (min-width: 1024px){
+/* @media screen and (min-width: 1024px){
     image{
   
     }
-}
+} */
 
 /* Desktop */
-@media screen and (min-width: 980px) and (max-width: 1024px){
+/* @media screen and (min-width: 980px) and (max-width: 1024px){
     .rage{
     
     }
-}
+} */
 
 /* Tablet */
-@media screen and (min-width: 760px) and (max-width: 980px){
+/* @media screen and (min-width: 760px) and (max-width: 980px){
     image{
   
     }
-}
+} */
 
 /* Mobile HD */
-@media screen and (min-width: 350px) and (max-width: 760px){
+/* @media screen and (min-width: 350px) and (max-width: 760px){
     .respo
         
     }
-}
+} */
 
 /* Mobile LD */
-@media screen and (max-width: 350px){
+/* @media screen and (max-width: 350px){
     .respo
         
     }
-} 
+}  */
