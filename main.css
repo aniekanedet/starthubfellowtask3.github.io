@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Rajdhani');
 @import url('https://fonts.googleapis.com/css?family=Rubik');
-@import url('https://fonts.googleapis.com/css?family=Coda');
+/* @import url('https://fonts.googleapis.com/css?family=Coda'); */
 
 html, body{
   padding: 0;
@@ -392,6 +392,31 @@ color: #FFF;
 }
 /* media querries */
 @media only screen and (max-width: 425px){
+
+
+  header {
+    background: linear-gradient(rgba(94, 92, 93, 0.23), rgba(94, 94, 94, 0.23)), url(Assest/header-image.jpg) no-repeat;
+    height: 900px;
+    background-size: cover;
+}
+.head-content h1{
+  font-size: 25px;
+}
+  .cardUp{
+    margin-top: -30px;
+  }
+  .cardUp h3{
+    font-size: 25px;
+  }
+  
+  .playbtn{
+    padding-top: 60px;
+  }
+
+  .forthsection h2{
+    font-size: 24px;
+   }
+ 
   .top-quality{
     display: none;
   }
@@ -435,13 +460,8 @@ color: #FFF;
 
   }
   .fifth2col-6 h2{
-    text-transform: uppercase;
-    font-weight: 900;
-    position: relative;
-    margin-bottom: 20px;
-    color: #2d2d2d;
+    font-size: 24px;
   }
-
   .fifth2col-6 p {
     font-family: 'Rubik', sans-serif;
     font-size: 15px;
@@ -452,12 +472,12 @@ color: #FFF;
     font-size: 15px;
     color: #4C4C4C;
   }
+  .sixthsection1 h3{
+    font-size: 24px;
+
+  }
   .img-height img {
-    height: 380px;
-    width: 2000%;
-    border-radius: 2px;
-    margin-top: 20px;
-    padding-top: 10px;
+    display: none;
 }
 colum_border{
   display: none;
@@ -466,44 +486,9 @@ colum_border{
   width: 15%;
 }
 }
-Support
-CSS
 
-Grace Faires
-Posted on Apr 23, 2014 by Grace Faires
-How to create a responsive div with a background image?
-Hey,
 
-I've been struggling with this issue for a while, and just wondered if anyone has any advice! Basically I want to place 3 images in a row, that will resize with the browser window. I also want these images to link to another part of the site, and have hover states applied to them, so I can't use img tags.
 
-If I specify height and width in percentages then the image doesn't display because the div collapses... So how else can I make it responsive?
-
-Thank you in advance!
-
-3 Answers
-Ryno BothaPRO
-Ryno Botha 
-on Apr 23, 2014
-Should work:
-
-background-size: cover;
-
-Cover will make the image as small as it can be, whilst still covering the entirety of its parent, and maintaining its aspect ratio. You may also want to try contain, which makes the image as big as it can be whilst still fitting inside the parent.
-
-Check: https://developer.mozilla.org/en-US/docs/Web/CSS/background-size
-
-To work with Different screen Sizes:
-
-<img src="img.png" class="responsive-image">
-
-In the CSS, we set background-size to fit the and we choose the width of our image.
-
-.responsive-image{
-    width: 100%;
-    background-size: 100% 100%;
-} 
-
-and finally, we serve for every view-port the right image:
 
 /* Retina display */
 @media screen and (min-width: 1024px){
