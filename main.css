@@ -391,11 +391,7 @@ footer h4 {
   color: #2d2d2d;
   font-size: 20px;
 }
-.footer-links {
-  list-style-type:none;
-  line-height: 30px;
-  font-size: 13px;
-}
+/*  */
 .footer-links2{
   list-style-type:none;
   font-size: 13px;
@@ -406,9 +402,34 @@ footer h4 {
 .footer-links2 a{
   color: rgb(73, 73, 73);
 }
-.footer-links a{
+.footer-menu a{
   color: rgb(116, 115, 115);
+}
+  .footer-menu {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 1px;
+    border-left: 1px solid #9c9c9c;
+}
 
+    .footer-menu a {
+        display: block;
+        position: relative;
+        padding: 5px 0 5px 30px;
+        line-height: 17px;
+        font-size: 13px;
+        text-decoration: none;
+    }
+
+        .footer-menu a:before {
+            content: "";
+            position: absolute;
+            width: 20px;
+            height: 1px;
+            left: 0;
+            top: 13px;
+            background: #9c9c9c;
+        }
 }
  footer a:hover{
   text-decoration: none;
@@ -524,6 +545,9 @@ color: #FFF;
     width: 100%; 
   
   } 
+  .footer-content1{
+    margin-right: 20px !important;
+  }
   .sixthsection{
     background: linear-gradient(rgba(94, 92, 93, 0.23), rgba(94, 94, 94, 0.23)), url(Assest/hd-5.jpg) no-repeat;
     height: 600px;
