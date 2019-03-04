@@ -99,8 +99,18 @@ header {
     line-height: 28px;
     
 }
-  
-  
+
+.b-left{
+  border-left: 1px solid lightgrey;
+  padding-left:20px;
+  height: 60px;
+}
+.x-large{
+  position: relative;
+  right: 80px;
+  bottom:70px;
+  height: 50px;
+}
   
 
   .colum_border{
@@ -285,7 +295,7 @@ color:#fff;
   height: 500px;
   background-size: cover;
   background-attachment: fixed;
-  ont-family: 'Rubik', sans-serif;
+  font-family: 'Rubik', sans-serif;
   color:#fff;
 }
 
@@ -294,7 +304,7 @@ color:#fff;
   font-weight: 900;
   position: relative;
 }
-. p{
+. p {
   font-size:15px;
   font-family: 'Rubik', sans-serif;
 
@@ -430,7 +440,7 @@ footer h4 {
             top: 13px;
             background: #9c9c9c;
         }
-}
+
  footer a:hover{
   text-decoration: none;
 } 
@@ -495,10 +505,13 @@ color: #FFF;
   height: 0px;
   /* border-right: 1px solid grey; */
 }
+.img-res{
+  max-width: 100%;
+  height: 100%;
+  display: block;
+}
 /* media querries */
 @media only screen and (max-width: 425px){
-
-
   header {
     background: linear-gradient(rgba(94, 92, 93, 0.23), rgba(94, 94, 94, 0.23)), url(Assest/header-image.jpg) no-repeat;
     height: 900px;
@@ -517,6 +530,12 @@ color: #FFF;
   .playbtn{
     padding-top: 60px;
   }
+  .b-left {
+    margin: 10px 0px 10px 0px;
+}
+.row1 {
+  padding-left: 100px;
+}
 
   .forthsection h2{
     font-size: 24px;
@@ -612,6 +631,15 @@ color: #FFF;
     background: #FFF;
     box-shadow: 0 4px 8px 0 rgba(37, 37, 37, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+  .brands{
+    display: block;
+  }
+  .brands .img{
+   margin: 10px;
+  }
+  .brands .img img{
+    padding: 10px;
+  }
   .progres{
     margin-top: 40px;
   }
@@ -647,35 +675,35 @@ colum_border{
 
 /* Retina display */
 /* @media screen and (min-width: 1024px){
-    image{
+    {
   
     }
 } */
 
 /* Desktop */
 /* @media screen and (min-width: 980px) and (max-width: 1024px){
-    .rage{
+    {
     
     }
 } */
 
 /* Tablet */
 /* @media screen and (min-width: 760px) and (max-width: 980px){
-    image{
+    {
   
     }
 } */
 
 /* Mobile HD */
 /* @media screen and (min-width: 350px) and (max-width: 760px){
-    .respo
+    .{
         
     }
 } */
 
 /* Mobile LD */
 /* @media screen and (max-width: 350px){
-    .respo
+    .{
         
     }
 }  */
